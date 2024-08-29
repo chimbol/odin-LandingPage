@@ -1,0 +1,95 @@
+/*HTML ELEMENTS*/
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+  display: flex; /*Aplica flex a todo el html*/
+  flex-direction: column; /*Alinea los elementos html de forma vertical*/
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  font-size: 18px;
+  padding-bottom: 50px;
+}
+
+li {
+  display: inline;
+  margin: 16px;
+  color: #e5e7eb;
+}
+
+a{
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+button {
+  background-color: #3882f6;
+  height: 30px;
+  width: 100px;
+}
+
+/*HERO HEADER*/
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1F2937;
+}
+
+
+/*HERO BOTTOM*/
+
+.header-bottom {
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+}
+
+/*HERO LEFT*/
+
+.hero-left {
+  background-color: #1F2937;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-title {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.hero-MainText {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.hero-text {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+/*HERO RIGHT*/
+
+.hero-right{
+  background-color: #1F2937;
+  display: flex;
+  flex-direction: column;
+} 
+
+/*HERO CONTAINER*/
+
+.hero-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1F2937;
+  padding-bottom: 60px;
+  padding-top: 10px;
+}
