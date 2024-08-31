@@ -110,6 +110,7 @@ button {
   display: flex;
   justify-content: center;
   gap: 50px;
+  padding-bottom: 20px;
 }
 
 .info-blocks {
@@ -117,4 +118,25 @@ button {
   text-align: center;
 }
 
-/*text-align: center;*/
+/*QUOTE SECTION*/
+
+.quote-container {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 18px;
+  gap: 50px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  max-width: 1000px;
+  align-self: center;
+}
+
+.quote-testimony {
+
+}
