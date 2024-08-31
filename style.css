@@ -27,14 +27,6 @@ a{
   color: #e5e7eb;
 }
 
-button {
-  background-color: #3882f6;
-  height: 30px;
-  width: 100px;
-  border-radius: 6px;
-  margin-top: 10px;
-}
-
 /*HERO HEADER*/
 
 .header {
@@ -76,6 +68,14 @@ button {
 .hero-text {
   color: #e5e7eb;
   font-size: 18px;
+}
+
+.hero-button {
+  background-color: #3882f6;
+  height: 30px;
+  width: 100px;
+  border-radius: 6px;
+  margin-top: 10px;
 }
 
 /*HERO RIGHT*/
@@ -137,6 +137,27 @@ button {
   align-self: center;
 }
 
-.quote-testimony {
+/*FOOTER SECTION*/
 
+.footer {
+  display: flex;
+  margin-top: 40px;
+  padding: 33px;
+  gap: 56px;
+  background: #3882f6;
+  align-self: center;
+}
+
+.footer-text {
+  color: aliceblue;
+}
+
+.footer-button {
+  background-color: #3882f6;
+  border-color: white;
+  height: 30px;
+  width: 100px;
+  border-radius: 6px;
+  margin-top: 10px;
+  color: aliceblue;
 }
